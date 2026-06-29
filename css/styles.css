@@ -173,6 +173,9 @@ h3 { font-size: clamp(1.2rem, 1.8vw, 1.45rem); }
 }
 .brand .mark svg { width: 22px; height: 22px; }
 .brand small { display: block; font-family: var(--font-body); font-weight: 500; font-size: 0.72rem; letter-spacing: 0.04em; color: var(--muted); margin-top: -2px; }
+.brand-logo { height: 38px; width: auto; display: block; }
+.site-footer .brand-logo { height: 42px; }
+@media (max-width: 560px) { .brand-logo { height: 30px; } }
 
 .nav-links { display: flex; align-items: center; gap: 4px; }
 .nav-links a {
